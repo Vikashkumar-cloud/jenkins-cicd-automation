@@ -14,7 +14,7 @@ pipeline {
     environment {
         APP_NAME = 'jenkins-cicd-app'
         PYTHON_VERSION = '3.11'
-        DOCKER_IMAGE = 'sushilkumarsb/jenkins-cicd-app'
+        DOCKER_IMAGE = 'vikashkumar1202/jenkins-cicd-app'
         DOCKER_TAG = "${BUILD_NUMBER}"
         EC2_HOST = '44.210.20.212'
         DEPLOYMENT_STATE_FILE = '.deployment_state'
