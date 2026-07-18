@@ -1,14 +1,3 @@
-# Jenkins CI/CD Automation Pipeline
-
-> Enterprise-grade CI/CD pipeline demonstrating automated build, test, and deployment workflows with Jenkins
-
-[![Build Status](https://sushilkumarsb.xyz/buildStatus/icon?job=jenkins-cicd-automation)](https://sushilkumarsb.xyz/job/jenkins-cicd-automation/)
-[![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen)]()
-[![Python](https://img.shields.io/badge/python-3.12-blue)]()
-[![Jenkins](https://img.shields.io/badge/jenkins-2.528-blue)]()
-[![AWS](https://img.shields.io/badge/AWS-EC2-orange)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
-
 ## 🎯 Project Overview
 
 A production-ready Jenkins CI/CD pipeline deployed on AWS EC2 with Docker containerization, automated rollback, and comprehensive monitoring. This project demonstrates:
@@ -22,8 +11,6 @@ A production-ready Jenkins CI/CD pipeline deployed on AWS EC2 with Docker contai
 - **Flexible branch deployment**: Build and deploy any branch via Jenkins parameter
 - **Continuous testing** with pytest and 92% code coverage
 
-**Live Application:** [https://sushilkumarsb.xyz/app/](https://sushilkumarsb.xyz/app/)  
-**Live Jenkins:** [https://sushilkumarsb.xyz](https://sushilkumarsb.xyz/job/jenkins-cicd-automation/)
 
 **Impact Metrics:**
 - ⚡ 50% reduction in deployment time (10 min → 5 min)
@@ -144,14 +131,6 @@ View coverage report: `htmlcov/index.html`
 - ⚡ <1 second execution time
 - 🎯 Edge cases, error handling, and concurrent requests tested
 
-## 🔧 Jenkins Deployment
-
-### Live Production Setup
-
-**Jenkins URL:** [https://sushilkumarsb.xyz](https://sushilkumarsb.xyz/job/jenkins-cicd-automation/)  
-**Deployment:** AWS EC2 Ubuntu 24.04 with Nginx reverse proxy  
-**SSL:** Free Let's Encrypt certificate  
-**Webhook:** GitHub push events trigger automatic builds
 
 ### Architecture
 
@@ -434,16 +413,6 @@ Planned improvements for this project:
 - [ ] Database migration automation (Flyway/Liquibase)
 - [ ] Cost optimization tracking for cloud resources
 - [ ] Disaster recovery automation and testing
-
-## �📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@sushilkumarsb](https://github.com/sushilkumarsb)
-- LinkedIn: [sushilkumarsb](https://linkedin.com/in/sushilkumarsb)
 
 ## 🎓 Learning Outcomes
 
