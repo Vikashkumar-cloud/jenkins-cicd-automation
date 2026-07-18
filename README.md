@@ -7,7 +7,7 @@ A production-ready Jenkins CI/CD pipeline deployed on AWS EC2 with Docker contai
 - **Automated rollback mechanism**: Health check validation with automatic rollback on failure
 - **Performance metrics tracking**: Stage-level and pipeline-level timing
 - **GitHub webhook integration**: Instant build triggers on code push  
-- **AWS EC2 deployment**: Production Flask app at https://sushilkumarsb.xyz/app/
+- **AWS EC2 deployment**: Production Flask app at https://vikashkumar-Devops.xyz/app/
 - **Flexible branch deployment**: Build and deploy any branch via Jenkins parameter
 - **Continuous testing** with pytest and 92% code coverage
 
@@ -226,21 +226,6 @@ jenkins-cicd-automation/
 | GET | `/version` | App version info |
 | POST | `/deploy` | Trigger deployment |
 
-### Example Usage
-
-```bash
-# Health check
-curl https://sushilkumarsb.xyz/app/health
-# Response: {"status": "ok"}
-
-# Version info
-curl https://sushilkumarsb.xyz/app/version
-# Response: {"version": "1.0.0"}
-
-# Home endpoint
-curl https://sushilkumarsb.xyz/app/
-```
-
 ## 🔄 Rollback Mechanism
 
 ### Automatic Rollback
@@ -351,7 +336,7 @@ The `scripts/rollback.sh` script will:
 - **Testing:** pytest, pytest-cov, pytest-flask (30 tests, 92% coverage)
 - **CI/CD:** Jenkins 2.528 with Declarative Pipeline
 - **Containerization:** Docker with multi-stage builds
-- **Registry:** Docker Hub (sushilkumarsb/jenkins-cicd-app)
+- **Registry:** Docker Hub
 - **Cloud:** AWS EC2 Ubuntu 24.04
 - **Web Server:** Nginx with SSL (Let's Encrypt)
 - **Version Control:** Git with GitHub webhooks
