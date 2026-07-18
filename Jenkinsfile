@@ -293,7 +293,6 @@ BUILD_NUMBER=${BUILD_NUMBER}
                 echo "⏱️  Total Pipeline Duration: ${pipelineDuration} seconds"
                 echo "🐳 Docker Image: ${DOCKER_IMAGE}:${DOCKER_TAG}"
                 echo "✅ Deployment Status: SUCCESS"
-                echo "🌐 Application URL: https://sushilkumarsb.xyz/app/"
                 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
                 
                 // Archive deployment state
